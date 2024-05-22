@@ -1,0 +1,192 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: black;
+    background-image: linear-gradient(180deg, #2b2a2a, black);
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-left: 0.7rem;
+}
+.musicplayer{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 72px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navigate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #121212;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.op{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+.op :hover{
+    opacity: 1;
+}
+.navigate a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.navigate i{
+    font-size: 1.25rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    flex: 1;
+    margin-top: 0.75rem;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
+}
+.lib-options a{
+    opacity: 0.7;
+}
+.lib-options a :hover{
+    opacity: 1;
+}
+.icons{
+    display: flex;
+    font-size: 1rem;
+}
+.icons i{
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.box1{
+    background-color: #454345;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 290px;
+    align-self: center;
+}
+.box-p1{
+    font-size: 16px;
+    margin: 0.5rem 0 0.3rem;
+    font-weight: 700;
+}
+.box-p2{
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 300;
+    margin-bottom: 1rem  ;
+}
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 4px 16px ;
+    font-weight: 700;
+    height: 24px;
+    width: fit-content;
+    margin: 0;
+}
+.sticky-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+}
+.fix-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.arrows{
+    display: flex;
+}
+.a1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin: 5px ;
+}
+.a2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: black;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin: 5px ;
+}
+.rightdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prem-badge{
+    border: 0;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 5px;
+}
+.app{
+    border: 0;
+    font-weight: 700;
+    background-color:#333233;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 5px;
+}
+.account i{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: #121212;
+}
+.content{
+    flex-direction: column;
+}
